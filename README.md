@@ -25,7 +25,7 @@
 **На Mac / Linux:**
 ```bash
 cd ~/.claude/skills && \
-  git clone https://github.com/{{GITHUB_USER}}/ai-employees-skills.git tmp-employees && \
+  git clone https://github.com/viktorshab/ai-employees-skills.git tmp-employees && \
   cp -r tmp-employees/skills/* . && \
   rm -rf tmp-employees && \
   echo "✅ 5 сотрудников установлены"
@@ -34,7 +34,7 @@ cd ~/.claude/skills && \
 **На Windows (через Git Bash или WSL):**
 ```bash
 cd "$HOME/.claude/skills" && \
-  git clone https://github.com/{{GITHUB_USER}}/ai-employees-skills.git tmp-employees && \
+  git clone https://github.com/viktorshab/ai-employees-skills.git tmp-employees && \
   cp -r tmp-employees/skills/* . && \
   rm -rf tmp-employees && \
   echo "✅ 5 сотрудников установлены"
@@ -43,7 +43,7 @@ cd "$HOME/.claude/skills" && \
 **Через PowerShell:**
 ```powershell
 cd $env:USERPROFILE\.claude\skills
-git clone https://github.com/{{GITHUB_USER}}/ai-employees-skills.git tmp-employees
+git clone https://github.com/viktorshab/ai-employees-skills.git tmp-employees
 Copy-Item tmp-employees\skills\* . -Recurse
 Remove-Item tmp-employees -Recurse -Force
 "5 сотрудников установлены"
@@ -70,7 +70,7 @@ Remove-Item tmp-employees -Recurse -Force
 ```bash
 mkdir -p ~/.codex/prompts && \
   cd ~/.codex/prompts && \
-  git clone https://github.com/{{GITHUB_USER}}/ai-employees-skills.git tmp-employees && \
+  git clone https://github.com/viktorshab/ai-employees-skills.git tmp-employees && \
   cp -r tmp-employees/skills/* . && \
   rm -rf tmp-employees
 ```
